@@ -1,24 +1,16 @@
 export const footerFlags = [
   {
-    src: "/hr.svg",
-    label: "Croatian",
+    src: "/hindi.svg",
+    label: "Hindi",
   },
   {
     src: "/es.svg",
     label: "Spanish",
   },
   {
-    src: "/fr.svg",
-    label: "French",
-  },
-  {
-    src: "/it.svg",
-    label: "Italian",
-  },
-  {
     src: "/jp.svg",
     label: "Japanese",
-  },
+  }
 ];
 
 export const sidebarItems = [
@@ -70,25 +62,17 @@ export const quests = [
 export const dataToInsert = {
   languages: [
     {
+      title: "Hindi",
+      imgSrc: "/Hindi.svg",
+    },
+    {
       title: "Spanish",
       imgSrc: "/es.svg",
     },
     {
       title: "Japanese",
       imgSrc: "/jp.svg",
-    },
-    {
-      title: "French",
-      imgSrc: "/fr.svg",
-    },
-    {
-      title: "Croatian",
-      imgSrc: "/hr.svg",
-    },
-    {
-      title: "Italian",
-      imgSrc: "/it.svg",
-    },
+    }
   ],
   units: [
     {
