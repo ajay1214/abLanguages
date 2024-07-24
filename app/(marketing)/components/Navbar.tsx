@@ -16,14 +16,14 @@ const Navbar = () => {
       <nav className="lg:max-w-screen-lg mx-auto flex items-center justify-between h-full">
         <div className="pt-8 pl-4 pb-7 flex items-center gap-x-3">
           <Image
-            src="/mascot.svg"
+            src="/abLanguagesLogo.svg"
             priority
-            alt="Mascot"
+            alt="abLanguagesLogo"
             width={40}
             height={40}
             loading="eager"
           />
-          <h1 className="text-2xl font-extrabold text-green-600 tracking-wide">
+          <h1 className="text-2xl font-extrabold text-orange-600 tracking-wide">
             abLanguages
           </h1>
         </div>

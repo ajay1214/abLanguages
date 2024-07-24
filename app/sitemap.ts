@@ -9,7 +9,7 @@ export default async function sitemap() {
     "/admin",
     "/lesson",
   ].map((route) => ({
-    url: `https://charactermi-lingo.vercel.app${route}`, // TODO
+    url: `https://ab-languages.vercel.app${route}`, // TODO
     lastModified: new Date().toISOString(),
   }));
 

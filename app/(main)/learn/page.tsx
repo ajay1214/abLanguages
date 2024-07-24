@@ -17,7 +17,7 @@ import { Unit } from "./components/Unit";
 
 export const metadata = {
   title: "abLanguages | Learning page",
-  description: "Learn, Practice and master new languages with abLanguages.",
+  description: "Achieve fluency in new languages with the help of abLanguages.",
 };
 
 const LearnPage = async () => {

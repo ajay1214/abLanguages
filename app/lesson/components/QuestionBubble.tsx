@@ -9,8 +9,8 @@ export const QuestionBubble: FC<QuestionBubbleProps> = ({ question }) => {
   return (
     <div className="flex items-center gap-x-4 mb-6">
       <Image
-        src="/mascot.svg"
-        alt="Mascot"
+        src="/abLanguagesLogo.svg"
+        alt="abLanguagesLogo"
         width={60}
         height={60}
         className="size-10 lg:size-16"

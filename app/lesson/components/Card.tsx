@@ -51,7 +51,7 @@ const Card: FC<CardProps> = ({
         selected && "border-sky-300 bg-sky-100 hover:bg-sky-100",
         selected &&
           status === "correct" &&
-          "border-green-300 bg-green-100 hover:bg-green-100",
+          "border-orange-300 bg-orange-100 hover:bg-orange-100",
         selected &&
           status === "wrong" &&
           "border-rose-300 bg-rose-100 hover:bg-rose-100",
@@ -81,7 +81,7 @@ const Card: FC<CardProps> = ({
             selected && "border-sky-300 text-sky-500",
             selected &&
               status === "correct" &&
-              "text-green-500 border-green-500",
+              "text-orange-500 border-orange-500",
             selected && status === "wrong" && "text-rose-500 border-rose-500"
           )}
         >
@@ -94,7 +94,7 @@ const Card: FC<CardProps> = ({
             selected && "border-sky-300 text-sky-500",
             selected &&
               status === "correct" &&
-              "border-green-300 text-green-500",
+              "border-orange-300 text-orange-500",
             selected && status === "wrong" && "border-rose-300 text-rose-500"
           )}
         >

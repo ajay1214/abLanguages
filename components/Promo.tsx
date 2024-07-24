@@ -16,7 +16,7 @@ export const Promo = () => {
       </div>
 
       <Link href="/shop" className="block">
-        <Button variant="super" className="w-full" size="lg">
+        <Button variant="super" className="bg-yellow-500 w-full hover:bg-yellow-300" size="lg">
           Upgrade today
         </Button>
       </Link>

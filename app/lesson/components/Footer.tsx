@@ -27,13 +27,13 @@ export const Footer: FC<FooterProps> = ({
     <footer
       className={cn(
         "lg:h-[140px] h-[100px] border-t-2 mt-2 py-8",
-        status === "correct" && "bg-transparent bg-green-100",
+        status === "correct" && "bg-transparent bg-orange-100",
         status === "wrong" && "bg-transparent bg-red-100"
       )}
     >
       <div className="max-w-[1140px] h-full mx-auto flex items-center justify-between px-4 lg:px-10">
         {status === "correct" && (
-          <div className="text-green-500 font-bold text-base lg:text-2xl flex items-center">
+          <div className="text-orange-500 font-bold text-base lg:text-2xl flex items-center">
             <CheckCircle className="size-6 lg:size-10 mr-4" />
             Nicely done !
           </div>

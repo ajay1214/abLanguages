@@ -37,20 +37,20 @@ export const Unit: FC<UnitsProps> = ({
   let border;
 
   if (cycleIndex <= 1) {
-    background = "#22c55e";
-    border = "border-green-600";
+    background = "#fb923c";
+    border = "border-orange-600";
   } else if (cycleIndex <= 2) {
     background = "#c084fc";
     border = "border-purple-500";
   } else if (cycleIndex <= 3) {
-    background = "#34d399";
-    border = "border-emerald-500";
+    background = "#FF4433";
+    border = "border-red-500";
   } else if (cycleIndex <= 4) {
     background = "#38bdf8";
     border = "border-sky-500";
   } else if (cycleIndex <= 5) {
-    background = "#fb923c";
-    border = "border-orange-500";
+    background = "##fab2f3";
+    border = "border-pink-500";
   } else {
     background = "#22c55e";
     border = "border-green-600";

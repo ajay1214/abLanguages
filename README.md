@@ -1,2 +1,2 @@
 # abLanguages
-Learn, Practice and master new languages with abLanguages | Doulingo UI Clone
+Achieve fluency in new languages with the help of abLanguages. | Doulingo UI Clone

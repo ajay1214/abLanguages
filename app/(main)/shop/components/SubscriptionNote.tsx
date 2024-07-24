@@ -36,7 +36,7 @@ const SubscriptionNote = () => {
     <>
       {subscriptionNote === "visible" && (
         <div
-          className="w-full p-4 pt-6 relative border border-green-500 bg-green-400/30 rounded-md mt-6 transition duration-300"
+          className="w-full p-4 pt-6 relative border border-orange-500 bg-orange-400/30 rounded-md mt-6 transition duration-300"
           ref={divRef}
         >
           <X

@@ -49,7 +49,7 @@ const Items = ({ hearts, points, hasActiveSubscription }: Props) => {
 
         <div className="flex-1">
           <p className="text-neutral-700 text-base lg:text-xl font-bold">
-            Refill hearts
+            Refill hearts !
           </p>
         </div>
 
@@ -74,7 +74,7 @@ const Items = ({ hearts, points, hasActiveSubscription }: Props) => {
 
         <div className="flex-1">
           <p className="text-neutral-700 text-base lg:text-xl font-bold">
-            Unlimited Hearts
+            You Can get Unlimited Hearts by upgrading
           </p>
         </div>
 

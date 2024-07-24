@@ -27,8 +27,8 @@ export const Sidebar = ({ className }: Props) => (
   >
     <Link href="/">
       <div className="pt-8 pl-4 pb-7 flex items-center gap-x-3">
-        <Image src="/mascot.svg" priority alt="Mascot" width={40} height={40} />
-        <h1 className="text-2xl font-extrabold text-green-600 tracking-wide">
+        <Image src="/abLanguagesLogo.svg" priority alt="abLanguagesLogo" width={40} height={40} />
+        <h1 className="text-2xl font-extrabold text-orange-600 tracking-wide">
           abLanguages
         </h1>
       </div>
@@ -45,7 +45,7 @@ export const Sidebar = ({ className }: Props) => (
       ))}
 
       {isAdmin() && (
-        <SidebarItem label="Admin" href="/admin" iconSrc="/mascot.svg" />
+        <SidebarItem label="Admin" href="/admin" iconSrc="/abLanguagesLogo.svg" />
       )}
     </div>
 
@@ -84,19 +84,19 @@ export const Sidebar = ({ className }: Props) => (
       </p>
       <div className="hidden lg:flex flex-row w-auto p-2">
           <Link href="https://github.com/ajay1214" aria-label="GitHub">
-            <GitHubLogoIcon className="w-4 h-4 mr-2 hover:text-green-500" />
+            <GitHubLogoIcon className="w-4 h-4 mr-2 hover:text-orange-500" />
           </Link>
           <Link
             href="https://www.instagram.com/ajay_bind786/"
             aria-label="Instagram"
           >
-            <InstagramLogoIcon className="w-4 h-4 mr-2 hover:text-green-500" />
+            <InstagramLogoIcon className="w-4 h-4 mr-2 hover:text-orange-500" />
           </Link>
           <Link
             href="https://www.linkedin.com/in/ajaybind/"
             aria-label="LinkedIn"
           >
-            <LinkedInLogoIcon className="w-4 h-4 mr-2 hover:text-green-500" />
+            <LinkedInLogoIcon className="w-4 h-4 mr-2 hover:text-orange-500" />
           </Link>
         </div>
     </div>

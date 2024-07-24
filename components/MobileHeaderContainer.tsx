@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const MobileHeaderContainer = ({ children }: { children: React.ReactNode }) => {
-  const [backgroundColor, setBackgroundColor] = useState("bg-green-500");
+  const [backgroundColor, setBackgroundColor] = useState("bg-orange-500");
   const pathName = usePathname();
 
   const handlePageScroll = () => {
@@ -23,7 +23,7 @@ const MobileHeaderContainer = ({ children }: { children: React.ReactNode }) => {
 
     greenUnitSections.forEach((item) => {
       if (currentScrollPosition >= item.offsetTop) {
-        setBackgroundColor("bg-green-500");
+        setBackgroundColor("bg-orange-500");
       }
     });
 
@@ -63,7 +63,7 @@ const MobileHeaderContainer = ({ children }: { children: React.ReactNode }) => {
   return (
     <nav
       className={`lg:hidden px-6 h-12 transition flex items-center ${
-        pathName === "/learn" ? backgroundColor : "bg-green-500"
+        pathName === "/learn" ? backgroundColor : "bg-orange-500"
       } border-b fixed top-0 w-full z-50`}
     >
       {children}

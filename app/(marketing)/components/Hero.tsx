@@ -17,18 +17,18 @@ const Hero = () => {
   return (
     <>
       <div className="relative w-[240px] h-[240px] lg:w-[424px] lg:h-[424px] mb-8 lg:mb-0">
-        <Image src="hero.svg" priority fill alt="Hero" loading="eager" />
+        <Image src="abLanguagesLogo.svg" priority fill alt="Hero" loading="eager" />
       </div>
 
       <div className="flex flex-col items-center gap-y-8">
         <AnimatedTitle>
         <h1 className="text-xl lg:text-3xl font-bold text-neutral-600 max-w-[480px] text-center">
           <span>
-          Learn, Practice and master new {' '}
+          Achieve fluency in new {' '}
             <span className="rounded-full border border-highlight/25 bg-highlight/50 px-[0.35em] py-[0.125em] text-highlight-depth dark:bg-highlight/85 dark:text-background">
               language
             </span>
-            with abLanguages.
+            with the help of abLanguages.
           </span>
           <span className="flex flex-wrap items-center justify-center">
             Learn{' '}
@@ -78,7 +78,7 @@ const Hero = () => {
 
             <SignedIn>
               <Button className="w-full" size="lg" variant="secondary" asChild>
-                <Link href="/learn">Continue learning</Link>
+                <Link href="/learn">Resume your learning</Link>
               </Button>
             </SignedIn>
           </ClerkLoaded>

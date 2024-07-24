@@ -17,7 +17,7 @@ import { Separator } from "@/components/ui/separator";
 
 export const metadata = {
   title: "abLanguages | Leaderboard page",
-  description: "See where you stand among other learners in the community.",
+  description: "Evaluate your progress compared to other learners in the community.",
 };
 
 const LeaderBoardPage = async () => {
@@ -54,7 +54,7 @@ const LeaderBoardPage = async () => {
           </h1>
 
           <p className="text-muted-foreground text-center text-lg mb-6">
-            See where you stand among other learners in the community.
+          Evaluate your progress compared to other learners in the community.
           </p>
 
           <Separator className="mb-4 h-0.5 rounded-full" />
@@ -71,7 +71,7 @@ const LeaderBoardPage = async () => {
               >
                 <p className="font-bold text-lime-700 mr-4">{i + 1}</p>
 
-                <Avatar className="border bg-green-500 h-12 w-12 ml-3 mr-6">
+                <Avatar className="border bg-orange-500 h-12 w-12 ml-3 mr-6">
                   <AvatarImage
                     alt={userProgress.userName}
                     className="object-cover"

@@ -12,13 +12,13 @@ export default function manifest(): Manifest {
     scope: ".",
     icons: [
       {
-        src: "/mascot-192.png",
+        src: "/abLanguagesLogo.png",
         sizes: "192x192",
         type: "image/png",
         purpose: "any",
       },
       {
-        src: "/mascot-512.png",
+        src: "/abLanguagesLogo.png",
         sizes: "512x512",
         type: "image/png",
         purpose: "any",

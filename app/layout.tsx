@@ -15,10 +15,10 @@ const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "abLanguages",
-  description: "Learn, Practice and master new languages with abLanguages.",
+  description: "Achieve fluency in new languages with the help of abLanguages.",
   icons: {
-    apple: "/mascot-192.png",
-    icon: "/mascot-192.png",
+    apple: "/abLanguagesLogo.png",
+    icon: "/abLanguagesLogo.png",
   },
 };
 
@@ -41,7 +41,7 @@ export default function RootLayout({
     <ClerkProvider
       appearance={{
         variables: {
-          colorPrimary: "#16a34a",
+          colorPrimary: "#FFA500",
         },
       }}
     >

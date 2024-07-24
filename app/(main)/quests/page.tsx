@@ -11,7 +11,7 @@ import { quests } from "@/constants";
 
 export const metadata = {
   title: "abLanguages | Quests page",
-  description: "Complete quests by earning points.",
+  description: "Finish quests to accumulate points.",
 };
 
 const QuestsPage = async () => {
@@ -36,7 +36,7 @@ const QuestsPage = async () => {
           </h1>
 
           <p className="text-muted-foreground text-center text-lg mb-6">
-            Complete quests by earning points.
+          Finish quests to accumulate points.
           </p>
 
           <ul className="w-full">

@@ -5,7 +5,7 @@ import Navbar from "@/app/(marketing)/components/Navbar";
 
 export const metadata: Metadata = {
   title: "abLanguages | Home page",
-  description: "Learn, Practice and master new languages with abLanguages.",
+  description: "Achieve fluency in new languages with the help of abLanguages.",
 };
 
 const MarketingLayout = ({ children }: { children: React.ReactNode }) => {

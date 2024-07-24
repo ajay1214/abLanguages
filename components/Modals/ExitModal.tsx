@@ -29,18 +29,18 @@ const ExitModal = () => {
         <DialogHeader>
           <div className="flex items-center w-full justify-center mb-5">
             <Image
-              src="/mascot_sad.svg"
-              alt="Mascot is sad"
+              src="/abLanguagesSad.png"
+              alt="abLanguagesLogo is sad"
               width={80}
               height={80}
             />
           </div>
 
           <DialogTitle className="text-center font-bold text-2xl">
-            Wait, don't go !
+            please, don't go !
           </DialogTitle>
           <DialogDescription className="text-center text-base">
-            You're about to leave the lesson. are you sure ?
+            Are you sure to leave this lesson?
           </DialogDescription>
         </DialogHeader>
 
@@ -52,7 +52,7 @@ const ExitModal = () => {
               size="lg"
               onClick={close}
             >
-              Keep learning
+              Resume your learning
             </Button>
 
             <Button
@@ -64,7 +64,7 @@ const ExitModal = () => {
                 router.push("/learn");
               }}
             >
-              End session
+              Close session
             </Button>
           </div>
         </DialogFooter>
