@@ -32,28 +32,58 @@ const DownloadAppButton = () => {
   }, []);
 
   return (
-    <Button
-      variant="secondary"
-      className="download-btn"
-      onClick={handleDownload}
-      size="icon"
-    >
+    // <Button
+    //   variant="secondary"
+    //   className="download-btn"
+    //   onClick={handleDownload}
+    //   size="icon"
+    // >
+    //   <svg
+    //     stroke="currentColor"
+    //     fill="none"
+    //     strokeWidth="2"
+    //     viewBox="0 0 24 24"
+    //     strokeLinecap="round"
+    //     strokeLinejoin="round"
+    //     height="2em"
+    //     width="2em"
+    //     xmlns="http://www.w3.org/2000/svg"
+    //   >
+    //     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+    //     <polyline points="7 10 12 15 17 10"></polyline>
+    //     <line x1="12" y1="15" x2="12" y2="3"></line>
+    //   </svg>
+    // </Button>
+    <button className="botao" onClick={handleDownload}>
       <svg
-        stroke="currentColor"
-        fill="none"
-        strokeWidth="2"
+        width="24px"
+        height="24px"
         viewBox="0 0 24 24"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        height="2em"
-        width="2em"
+        fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="mysvg"
       >
-        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-        <polyline points="7 10 12 15 17 10"></polyline>
-        <line x1="12" y1="15" x2="12" y2="3"></line>
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <g id="Interface / Download">
+            <path
+              id="Vector"
+              d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+              stroke="#f1f1f1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>{" "}
+        </g>
       </svg>
-    </Button>
+      <span className="texto">Download</span>
+    </button>
   );
 };
 

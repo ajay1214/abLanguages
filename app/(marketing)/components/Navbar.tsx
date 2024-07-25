@@ -23,7 +23,7 @@ const Navbar = () => {
             height={40}
             loading="eager"
           />
-          <h1 className="text-2xl font-extrabold text-orange-600 tracking-wide">
+          <h1 className="text-2xl font-extrabold text-purple-600 tracking-wide">
             abLanguages
           </h1>
         </div>
