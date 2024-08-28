@@ -66,9 +66,12 @@ const Hero = () => {
                 signInFallbackRedirectUrl="/learn"
                 fallbackRedirectUrl="/learn"
               >
-                <Button className="w-full" size="lg" variant="secondary">
+                {/* <Button className="w-full" size="lg" variant="secondary">
                   Get Started
-                </Button>
+                </Button> */}
+                <button className="hero-resume-button">
+                  Get Started
+                </button>
               </SignUpButton>
 
               <SignInButton
@@ -77,7 +80,7 @@ const Hero = () => {
                 fallbackRedirectUrl="/learn"
               >
                 <Button className="w-full" size="lg" variant="primaryOutline">
-                  I already have an account
+                  Already have an account
                 </Button>
               </SignInButton>
             </SignedOut>

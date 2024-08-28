@@ -28,9 +28,10 @@ export const Sidebar = ({ className }: Props) => (
     <Link href="/">
       <div className="pt-8 pl-4 pb-7 flex items-center gap-x-3">
         <Image src="/abLanguagesLogo.svg" priority alt="abLanguagesLogo" width={40} height={40} />
-        <h1 className="text-2xl font-extrabold text-purple-600 tracking-wide">
+        {/* <h1 className="text-2xl font-extrabold text-purple-600 tracking-wide">
           abLanguages
-        </h1>
+        </h1> */}
+        <img src="/abLanguages_logo_text.png" alt="abLanguages" width={160}/>
       </div>
     </Link>
 
