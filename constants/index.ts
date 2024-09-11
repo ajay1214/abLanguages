@@ -8,7 +8,7 @@ export const footerFlags = [
     label: "Japanese",
   },
   {
-    src: "/Hindi.svg",
+    src: "/hindi.svg",
     label: "Punjabi",
   },
   {
