@@ -4,25 +4,30 @@ export const footerFlags = [
     label: "Hindi",
   },
   {
-    src: "/hr.svg",
-    label: "Croatian",
+    src: "/jp.svg",
+    label: "Japanese",
   },
   {
-    src: "/es.svg",
-    label: "Spanish",
+    src: "/Hindi.svg",
+    label: "Punjabi",
   },
   {
     src: "/fr.svg",
     label: "French",
   },
   {
-    src: "/it.svg",
-    label: "Italian",
+    src: "/hindi.svg",
+    label: "Bhojpuri",
   },
   {
-    src: "/jp.svg",
-    label: "Japanese",
+    src: "/es.svg",
+    label: "Spanish",
   },
+  {
+    src: "/hindi.svg",
+    label: "Gujrati",
+  }
+  
 ];
 
 export const sidebarItems = [

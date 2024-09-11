@@ -44,7 +44,7 @@ const Navbar = () => {
               signUpFallbackRedirectUrl="/learn"
               fallbackRedirectUrl="/learn"
             >
-              <Button size="lg" variant="defaultOutline">
+              <Button size="default" variant="primary">
                 Login
               </Button>
             </SignInButton>
